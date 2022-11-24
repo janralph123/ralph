@@ -1,6 +1,33 @@
-composer.phar
-/vendor/
-
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Amando Cope College</title>  
+<style>  
+body{  
+  background-color: #fcc200;  
+}  
+</style>  
+</head>  
+<body>  
+  <h2>Key To Correction In Exam</h2>  
+  <button onclick="clickMe()">Click Here</button><br>  
+    
+ <template id="mytemplate">  
+   <img src="C:\Users\Administrator\Downloads/isah.jpg" alt="" height="500" width="500">
+   <img src="C:\Users\Administrator\Downloads/123.jpg" alt="" height="500" width="500"> 
+   <script>  
+    
+   </script>  
+  </template>  
+   
+    
+   </script>  
+  </template>  
+<script>  
+   function clickMe() {  
+    var x= document.getElementsByTagName("template")[0];  
+    var clon = x.content.cloneNode(true);  
+    document.body.appendChild(clon);}  
+</script>  
+</body>  
+</html>  
